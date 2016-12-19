@@ -18,64 +18,72 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="content">
-        <header class="header">
-          <div class="container">
-            <div class="header__items">
-              <div class="header__left">
-                <div class="socials">
-                  <ul class="socials__list-header">
-                    <li class="socials__item"><a class="socials__link" href="https://vk.com/kbicbka"><img class="socials__icon-vk" src="assets/css/sprite/vk.svg" alt=""></a></li>
-                    <li class="socials__item"><a class="socials__link" href="https://github.com/yuliabeckaya"><img class="socials__icon-github" src="assets/css/sprite/github.svg" alt=""></a></li>
-                    <li class="socials__item"><a class="socials__link" href="https://www.linkedin.com/russkiy"><img class="socials__icon-in" src="assets/css/sprite/in.svg" alt=""></a></li>
-                  </ul>
-                </div>
+      <header class="header">
+        <div class="container">
+          <div class="header__items">
+            <div class="header__left">
+              <div class="socials">
+                <ul class="socials__list-header">
+                  <li class="socials__item"><a class="socials__link" href="https://vk.com/kbicbka"><img class="socials__icon-vk" src="assets/css/sprite/vk.svg" alt=""></a></li>
+                  <li class="socials__item"><a class="socials__link" href="https://github.com/yuliabeckaya"><img class="socials__icon-github" src="assets/css/sprite/github.svg" alt=""></a></li>
+                  <li class="socials__item"><a class="socials__link" href="https://www.linkedin.com/russkiy"><img class="socials__icon-in" src="assets/css/sprite/in.svg" alt=""></a></li>
+                </ul>
               </div>
-              <div class="header__right">
-                <div class="menu__close">
-                  <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
-                  <div class="overlay" id="overlay">
-                    <nav class="overlay-menu">
-                      <ul>
-                        <li><a href="works.html">МОИ РАБОТЫ</a></li>
-                        <li><a href="index.html">ОБО МНЕ</a></li>
-                        <li><a href="blog.html">БЛОГ</a></li>
-                        <li><a href="author.html">АВТОРИЗАЦИЯ</a></li>
-                      </ul>
-                    </nav>
-                  </div>
+            </div>
+            <div class="header__right">
+              <div class="menu__close">
+                <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+                <div class="overlay" id="overlay">
+                  <nav class="overlay-menu">
+                    <ul>
+                      <li><a href="works.html">МОИ РАБОТЫ</a></li>
+                      <li><a href="index.html">ОБО МНЕ</a></li>
+                      <li><a href="blog.html">БЛОГ</a></li>
+                      <li><a href="author.html">АВТОРИЗАЦИЯ</a></li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
             </div>
-            <div class="user">
-              <div class="user__avatar">
-                <div class="user__avatar-pic"><img class="user__avatar-img" src="assets/css/img/ava.jpg" alt=""></div>
-              </div>
-              <div class="user__info">
-                <div class="user__info-name">Yulia Betskaya</div>
-                <div class="user__info-custom">
-                  <p class="user__info-custom">Личный сайт веб-разработчика</p>
-                </div>
-              </div>
-            </div>
-            <div class="arrow__down"><a href="#"><img src="assets/css/sprite/arrow_down.svg" alt=""></a></div>
           </div>
+          <div class="user">
+            <div class="user__avatar">
+              <div class="user__avatar-pic">
+                <!--img.user__avatar-img(src='assets/css/img/ava.jpg', alt='')-->
+              </div>
+            </div>
+            <div class="user__info">
+              <div class="user__info-name">Юлия Бецкая</div>
+              <div class="user__info-custom">
+                <p class="user__info-custom">Личный сайт веб-разработчика</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow__down"><a href="#"><img src="assets/css/sprite/arrow_down.svg" alt=""></a></div>
           <div class="triangle">
             <div class="triangle__left"></div>
             <div class="triangle__right"></div>
           </div>
-        </header>
-        <section>
+        </div>
+      </header>
+      <section>
+        <div class="container">
           <div class="about">
             <div class="about__left">
               <div class="about__me">
-                <div class="wrap-title1">
-                  <div class="title1">ОБО МНЕ</div>
+                <div class="about__me-wrap"><img class="about__me-wrap" src="assets/css/sprite/about_header.svg" alt="">
+                  <div class="about__me-title">
+                    <div class="wrap-title1">
+                      <div class="title1">ОБО МНЕ</div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="about__item">
                 <div class="full__content__about__me">
-                  <div class="about__me-foto"><img src="assets/css/img/foto.jpg" alt=""></div>
+                  <div class="about__me-foto">
+                    <!--img(src='assets/css/img/foto.jpg', alt='')-->
+                  </div>
                   <div class="wrap-title2">
                     <div class="title2">Кто я</div>
                   </div>
@@ -162,31 +170,31 @@
               </div>
             </div>
           </div>
-        </section>
-        <section>
-          <div class="map">
-            <div class="map-google"></div>
-            <!--iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2005.2658584528785!2d30.13930845236987!3d59.82811533832959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963bed7de4526d%3A0x8234013695a0f444!2z0YPQuy4g0JvRkdGC0YfQuNC60LAg0J_QuNC70Y7RgtC-0LLQsCwgNTAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTgyNjQ!5e0!3m2!1sru!2sru!4v1480779497195', width='1920', height='930', frameborder='0', style='border:0', allowfullscreen='')-->
-            <div class="contacts">
-              <div class="wrap-title2">
-                <div class="title2">Контакты</div>
-              </div>
-              <div class="contants_content"><a class="cnt" href="skype:yuliabetskaya?call">
-                  <div class="cnt-icon"><img src="assets/css/sprite/skype.svg" alt=""></div>
-                  <p class="cnt-text">yuliabetskaya</p></a><a class="cnt" href="mailto:yuliabeckaya@gmail.com">
-                  <div class="cnt-icon"><img src="assets/css/sprite/envelope.svg" alt=""></div>
-                  <p class="cnt-text">yuliabeckaya@gmail.com</p></a><a class="cnt" href="tel: +7 921 781 15 47">
-                  <div class="cnt-icon"><img src="assets/css/sprite/phone.svg" alt=""></div>
-                  <p class="cnt-text">+79217811547</p></a>
-                <div class="cnt"><a class="cnt" href="https://goo.gl/maps/pYX5LyvbcGB2"></a>
-                  <div class="cnt-icon"><img src="assets/css/sprite/map_marker.svg" alt=""></div>
-                  <p class="cnt-text">г.Санкт-Петербург, ул. Летчика Пилютова, д. 50к4</p>
-                </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container">
+          <div class="map-google"></div>
+          <!--iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2005.2658584528785!2d30.13930845236987!3d59.82811533832959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963bed7de4526d%3A0x8234013695a0f444!2z0YPQuy4g0JvRkdGC0YfQuNC60LAg0J_QuNC70Y7RgtC-0LLQsCwgNTAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTgyNjQ!5e0!3m2!1sru!2sru!4v1480779497195', width='1920', height='930', frameborder='0', style='border:0', allowfullscreen='')-->
+          <div class="contacts">
+            <div class="wrap-title2">
+              <div class="title2">Контакты</div>
+            </div>
+            <div class="contants_content"><a class="cnt" href="skype:yuliabetskaya?call">
+                <div class="cnt-icon"><img src="assets/css/sprite/skype.svg" alt=""></div>
+                <p class="cnt-text">yuliabetskaya</p></a><a class="cnt" href="mailto:yuliabeckaya@gmail.com">
+                <div class="cnt-icon"><img src="assets/css/sprite/envelope.svg" alt=""></div>
+                <p class="cnt-text">yuliabeckaya@gmail.com</p></a><a class="cnt" href="tel: +7 921 781 15 47">
+                <div class="cnt-icon"><img src="assets/css/sprite/phone.svg" alt=""></div>
+                <p class="cnt-text">+79217811547</p></a>
+              <div class="cnt"><a class="cnt" href="https://goo.gl/maps/pYX5LyvbcGB2"></a>
+                <div class="cnt-icon"><img src="assets/css/sprite/map_marker.svg" alt=""></div>
+                <p class="cnt-text">г.Санкт-Петербург, ул. Летчика Пилютова, д. 50к4</p>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
     <footer>
       <div class="container">
