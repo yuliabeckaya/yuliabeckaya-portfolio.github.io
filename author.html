@@ -9,6 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <link rel="stylesheet" href="assets/css/fonts/font-awesome.min.css">
+    <link rel="icon" type="image" href="assets/css/img/fav_mount.png" sizes="16x16">
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/fonts/*.*">
@@ -18,9 +19,8 @@
   </head>
   <body>
     <div class="container__author">
-      <div class="author__header">
-        <button class="author__btn" onclick="document.querySelector('#flip-toggle').classList.toggle('hover');">Авторизоваться</button>
-      </div>
+      <!--include ../common/_parallax-->
+      <div class="author__header"><a class="author__btn" href="#">Авторизоваться</a></div>
       <div class="flip-container" id="flip-toggle">
         <div class="flipper">
           <div class="front">
@@ -30,7 +30,7 @@
               </div>
               <div class="user__author-info">
                 <div class="user__author-info-name">
-                  <p class="user__author-name">Yulia Betskaya</p>
+                  <p class="user__author-name">Юлия Бецкая</p>
                 </div>
                 <div class="ser__author-info-custom">
                   <p>Личный сайт веб-разработчика</p>
@@ -47,15 +47,17 @@
               </div>
             </div>
             <div id="front_btn">
-              <p>
-                <input type="button" value="Мои работы" onclick="parent.location='works.html'">
-              </p>
-              <p>
-                <input type="button" value="Обо мне" onclick="parent.location='index.html'">
-              </p>
-              <p>
-                <input type="button" value="Блог" onclick="parent.location='blog.html'">
-              </p>
+              <ul class="btn__list">
+                <li class="btn__list-item"><a class="btn-link" href="works.html">Мои работы</a></li>
+                <li class="btn__list-item"><a class="btn-link" href="index.html">Обо мне</a></li>
+                <li class="btn__list-item"><a class="btn-link" href="blog.html">Блог</a></li>
+              </ul>
+              <!--pinput(type='button', value='Мои работы', onclick="parent.location='works.html'")
+              -->
+              <!--pinput(type='button', value='Обо мне', onclick="parent.location='index.html'")
+              -->
+              <!--pinput(type='button', value='Блог', onclick="parent.location='blog.html'")
+              -->
             </div>
           </div>
           <div class="back">
