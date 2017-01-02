@@ -9,6 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <link rel="stylesheet" href="assets/css/fonts/font-awesome.min.css">
+    <link rel="icon" type="image" href="assets/css/img/fav_mount.png" sizes="16x16">
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/fonts/*.*">
@@ -83,7 +84,7 @@
               <div class="content__works-info-skills">
                 <p>HTML, CSS, JavaScript</p>
               </div>
-              <div class="content__works-info-btn"><a class="btn" href="#"><img src="assets/css/sprite/link.svg" alt="">
+              <div class="content__works-info-btn"><a class="btn" href="#"><img class="btn-link" src="assets/css/sprite/link.svg" alt="">
                   <p class="user__info-custom">Посмотреть сайт</p></a></div>
             </div>
           </div>
@@ -141,29 +142,27 @@
         </div>
         <div class="contact__form__wrapper">
           <div class="contact__form-blur"></div>
-        </div>
-        <div class="contact__form">
-          <div class="wrap-title2">
-            <div class="title2">CВЯЗАТЬСЯ СО МНОЙ</div>
+          <div class="contact__form">
+            <div class="wrap-title2">
+              <div class="title2">CВЯЗАТЬСЯ СО МНОЙ</div>
+            </div>
+            <form id="application" action="application.php" method="POST" name=" application ">
+              <input id="applicationName" name="name" maxlength="20" placeholder="Имя" required="">
+              <input id="applicationEmail" name="email" type="email" maxlength="20" placeholder="E-mail" required="">
+              <textarea cols="30" rows="5" name="message" placeholder="Ваше сообщение" required=" "></textarea>
+            </form>
+            <div id="back_btn">
+              <p>
+                <input type="submit" value="Отправить">
+              </p>
+              <p>
+                <input type="submit" value="Очистить">
+              </p>
+            </div>
           </div>
-          <form id="application" action="application.php" method="POST" name=" application ">
-            <input id="applicationName" name="name" maxlength="20" placeholder="Имя" required="">
-            <input id="applicationEmail" name="email" type="email" maxlength="20" placeholder="E-mail" required="">
-            <textarea cols="30" rows="5" name="message" placeholder="Ваше сообщение" required=" "></textarea>
-          </form>
-          <div id="back_btn">
-            <p>
-              <input type="submit" value="Отправить">
-            </p>
-            <p>
-              <input type="submit" value="Очистить">
-            </p>
-          </div>
         </div>
+        <div class="arrow__down up"><a href="#"><img src="assets/css/sprite/arrow_down.svg" alt=""></a></div>
       </div>
-      <!--.arrow__down-->
-      <!--	a(href='#')-->
-      <!--		img(src='assets/css/sprite/arrow_down.svg', alt='')-->
     </div>
     <footer>
       <div class="container">
@@ -179,9 +178,9 @@
           <div class="icons"> 
             <div class="socials">
               <ul class="socials__list-header">
-                <li class="socials__item"><a class="socials__link" href="https://vk.com/kbicbka"><img class="socials__icon-vk" src="assets/css/sprite/vk.svg" alt=""></a></li>
-                <li class="socials__item"><a class="socials__link" href="https://github.com/yuliabeckaya"><img class="socials__icon-github" src="assets/css/sprite/github.svg" alt=""></a></li>
-                <li class="socials__item"><a class="socials__link" href="https://www.linkedin.com/russkiy"><img class="socials__icon-in" src="assets/css/sprite/in.svg" alt=""></a></li>
+                <li class="socials__item"><a class="socials__link" href="https://vk.com/kbicbka"><img class="vk-footer" src="assets/css/sprite/vk_round.svg" alt=""></a></li>
+                <li class="socials__item"><a class="socials__link" href="https://github.com/yuliabeckaya"><img class="github-footer" src="assets/css/sprite/github_round.svg" alt=""></a></li>
+                <li class="socials__item"><a class="socials__link" href="https://www.linkedin.com/russkiy"><img class="in-footer" src="assets/css/sprite/in_round.svg" alt=""></a></li>
               </ul>
             </div>
           </div>
